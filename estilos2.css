@@ -1,0 +1,307 @@
+/*-------geral----------*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+  }
+  
+  .index {
+    font-weight:700;
+    margin: 30px;
+    height: 25px;
+    width: 25px;
+    font-size: 15;
+    text-decoration: none;
+    font-family: 'Source Code Pro', monospace;
+    color: red;
+  }
+  
+  /*-------estilos Tipograficos--------------*/
+
+  
+  .titulo2{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400px;
+    text-decoration: solid;
+    color:red;}
+
+    .intro {
+      font-size: 10pt;
+      color: red;
+      font: 400;
+      text-align: center;
+      margin: auto;
+      width: 550px;
+      margin-top: auto;
+    }
+    .legendadestaque{
+      font-weight: 600;
+    }
+  
+    .destaque {
+      background-color: lightpink;
+      font-weight: 700;
+    }
+  
+  .hidden2 {  text-align: center;
+    font-size: 15px;
+    font-family: 'Source Code Pro', monospace;
+    top: 250px;
+    bottom: 30px;
+    margin-left: 30%;
+    margin-bottom: 400px;
+    width: 40%;
+    text-decoration: solid;
+    color: red;
+    position: relative;}
+  
+  .madebytitle
+  {font-size: 11pt;
+    font-family: 'Source Code Pro', monospace;
+    width: 130px;
+    margin: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:red;
+    color: white;}
+  
+  .madebytext {font-size: 11pt;
+    font-family: 'Source Code Pro', monospace;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    text-decoration: solid;
+    color:red;}
+
+.surveillancetitle{
+  font-size: 11pt;
+  position: absolute;
+    font-family: 'Source Code Pro', monospace;
+    width: 170px;
+    margin: 20px;
+    top: -100px;
+    left: 480px;
+    background-color:red;
+    color: white;}
+
+.surveillancetext {
+      font-size: 11pt;
+      font-family: 'Source Code Pro', monospace;
+      position: absolute;
+      width: 400px;
+      height: 200px;
+      top: -65px;
+      left: 500px;
+      text-decoration: solid;
+      color:red;}
+
+ .trackingtitle{
+        font-size: 11pt;
+        position: absolute;
+          font-family: 'Source Code Pro', monospace;
+          width: 190x;
+          margin: 20px;
+          top: 280px;
+          left: 600px;
+          background-color:red;
+          color: white;}
+      
+.trackingtext {
+            font-size: 11pt;
+            font-family: 'Source Code Pro', monospace;
+            position: absolute;
+            width: 350px;
+            height: 200px;
+            top: 320px;
+            left: 620px;
+            text-decoration: solid;
+            color:red;}
+            
+.capturetitle{
+  font-size: 11pt;
+  position: absolute;
+  font-family: 'Source Code Pro', monospace;
+  width: 200x;
+  margin: 20px;
+  top: 530px;
+  left: 180px;
+  background-color:red;
+  color: white;}
+            
+.capturetext{
+    font-size: 11pt;
+     font-family: 'Source Code Pro', monospace;
+    position: absolute;
+   width: 350px;
+    height: 200px;
+    top: 560px;
+    left: 200px;
+    text-decoration: solid;
+    color:red;}
+    
+.labortitle{
+      font-size: 11pt;
+      position: absolute;
+      font-family: 'Source Code Pro', monospace;
+      width: 200x;
+      margin: 20px;
+      top: 330px;
+      left: -300px;
+      background-color:red;
+      color: white;}
+                
+ .labortext{
+        font-size: 11pt;
+         font-family: 'Source Code Pro', monospace;
+        position: absolute;
+       width: 380px;
+        height: 200px;
+        top: 360px;
+        left: -275px;
+        text-decoration: solid;
+        color:red;} 
+
+  /*----Pagina 2 ------*/
+
+  .background1 {
+    width: 100%;
+  }
+  
+  .box-holder6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    }
+    
+    input:checked ~ .box-holder6 {
+    display: block;
+    }
+    
+    .trigger-box6 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 40%;
+    margin: 0px auto;
+    display: block;
+    }
+    
+    .trigger-box6 input {
+    display: none;
+    }
+    
+  .content-box6 {
+    position: absolute;
+    width: 250px;
+    height: 275px;
+    background-color: white;
+    border: 0.75px solid red;
+
+    }
+  .content-box7 {
+      position: relative;
+      width: 420px;
+      height: 270px;
+      left: 480px;
+      top: -90px;
+      background-color: white;
+      border: 0.75px solid red;
+      flex: auto;
+      }
+  .content-box8 {
+        position: relative;
+        width: 380px;
+        height: 260px;
+        left: 600px;
+        top: 10px;
+        background-color: white;
+        border: 0.75px solid red;
+        flex: auto;
+        }
+.content-box9 {
+          position: relative;
+          width: 400px;
+          height: 300px;
+          left: 180px;
+          top: 0px;
+          background-color: white;
+          border: 0.75px solid red;
+          flex: auto;
+          }
+
+.content-box10 {
+    position: relative;
+    width: 450px;
+    height: 250px;
+    right: 300px;
+    top: -500px;
+    background-color: white;
+    border: 0.75px solid red;
+    flex: auto;
+            }
+
+
+  /*---LEGENDAS*/
+.squarepag1{
+    margin: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: blue;
+    margin: 0px auto;
+    margin-top: 2%;
+    display: block;    
+  }
+
+  .squarepag1 {
+    animation-name: backgroundColorPalette;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function:linear; 
+    /* linear is enabled default, it’s not necessary to add it make it work but it can make your code more expressive */
+  }
+  
+  @keyframes backgroundColorPalette {
+    0% {
+      background: red;
+    }
+    100% {
+      background: blue;
+    }
+  }
+
+  .toggle {
+    display: inline-block;
+  }
+  
+  .toggle input {
+    visibility: hidden;
+  }
+  
+  .toggle input:checked ~ .hidden2 {
+    visibility: visible;
+  }
+  
+  .toggle .hidden2 {
+    visibility: collapse;
+  }
+  
+  .square2{
+    margin-left: 49%;
+    top: 1200px;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color:red;
+  }  
+

@@ -1,0 +1,336 @@
+/*-------geral----------*/
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.index {
+  font-weight:700;
+  margin: 30px;
+  height: 25px;
+  width: 25px;
+  font-size: 15;
+  text-decoration: none;
+  font-family: 'Source Code Pro', monospace;
+  color: blue;
+}
+.circleresumo{
+  position: absolute;
+  top: 50%;
+  margin: 50%;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: blue;
+
+}
+
+.squarepag2{
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    margin-top: 2%;
+    border-radius: 50%;
+    background-color: red;
+    display: block;    
+  } 
+  .squarepag2 {
+    animation-name: backgroundColorPalette;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear; 
+    /* linear is enabled default, it’s not necessary to add it make it work but it can make your code more expressive */
+  }
+  
+  @keyframes backgroundColorPalette {
+    0% {
+      background: blue;
+    }
+    25% {
+      background: red;
+    }
+    50% {
+      background: red;
+    }
+    75% {
+      background: blue;
+    }
+    100% {
+      background: red;
+    }
+  }
+
+  /*TITULOOO*/
+  .intro {
+    font-size: 10pt;
+    color: blue;
+    font: 400;
+    text-align: center;
+    margin: auto;
+    width: 550px;
+    margin-top: auto;
+  }
+
+
+/*-------estilos Tipograficos--------------*/
+.titulo1{
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 400px;
+  text-decoration: solid;
+  color: blue;}
+
+.destaque {
+  background-color: lightblue;
+  font-weight: 700;
+}
+
+.hidden {
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Source Code Pro', monospace;
+  margin: 20px;
+  top: 110px;
+  height: 30px;
+  margin-bottom: 600px;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-decoration: solid;
+  color: blue;
+  position: relative;}
+
+.legendadestaque{
+  font-weight: 600;
+}
+
+.silicontitle
+{font-size: 11pt;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 800;
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  background-color: blue;
+  color: white;}
+
+.silicontext {font-size: 11pt;
+  font-family: 'Source Code Pro', monospace;
+  width: 250px;
+  height: 200px;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  text-decoration: solid;
+  color: blue;
+  flex: auto;}
+  
+.labortitle
+{font-size: 11pt;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 800;
+  position: absolute;
+  top: 0;
+  left: 520px;
+  width: fit-content;
+  background-color: blue;
+  color: white;}
+
+.laborcontext 
+{font-size: 11pt;
+  font-family: 'Source Code Pro', monospace;
+  width: 250px;
+  height: 200px;
+  top: 25px;
+  left: 520px;
+  position: absolute;
+  text-decoration: solid;
+  color: blue;
+  flex: auto;}
+
+.fauxtitle{
+  font-size: 11pt;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 800;
+  position: absolute;
+  top: 240px;
+  left: 670px;
+  width: 120px;
+  background-color: blue;
+  color: white;}
+
+  .fauxcontext {
+  font-size: 11pt;
+  font-family: 'Source Code Pro', monospace;
+  width: 300px;
+  height: 200px;
+  top: 270px;
+  left: 670px;
+  position: absolute;
+  text-decoration: solid;
+  color: blue;
+  flex: auto;}
+
+  .timetitle{
+    font-size: 11pt;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 800;
+    position: absolute;
+    top: 550px;
+    left: 270px;
+    width: 180px;
+    background-color: blue;
+    color: white;}
+
+  .timecontext {
+      font-size: 11pt;
+      font-family: 'Source Code Pro', monospace;
+      width: 380px;
+      height: 200px;
+      top: 580px;
+      left: 270px;
+      position: absolute;
+      text-decoration: solid;
+      color: blue;
+      flex: auto;}
+
+.ghosttitle{
+        font-size: 11pt;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: 800;
+        position: absolute;
+        left: -100px;
+        top: 450px;
+        width: 100px;
+        background-color: blue;
+        color: white;}
+
+.ghostcontext{
+  font-size: 11pt;
+  font-family: 'Source Code Pro', monospace;
+  width: 200px;
+  height: 400px;
+  top: 480px;
+  left: -100px;
+  position: absolute;
+  text-decoration: solid;
+  color: blue;
+  flex: auto;}
+  
+  /* -----Pagina 1-----*/
+.background1{
+    width: 100%;
+    margin: auto;
+  }
+
+  .box-holder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    }
+    
+    input:checked ~ .box-holder {
+    display: block;
+    }
+    
+    .trigger-box {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 40%;
+    margin: 0px auto;
+    display: block;
+    }
+    
+    .trigger-box input {
+    display: none;
+    }
+    
+.content-box {
+    position: absolute;
+    width: 270px;
+    height: 290px;
+    background-color: white;
+    border: 0.75px solid blue;
+    padding-right: 10%;
+    flex: auto;
+    }
+.content-box2 {
+      position: relative;
+      width: 300px;
+      height: 170px;
+      left: 500px;
+      top: 5px;
+      background-color: white;
+      border: 0.75px solid blue;
+      flex: auto;
+      }
+
+.content-box5 {
+        position: relative;
+        width: 250px;
+        height: 350px;
+        left: -120px;
+        top: -200px;
+        background-color: white;
+        border: 0.75px solid blue;
+        flex: auto;
+                  }
+
+.content-box3 {
+        position: relative;
+        width: 330px;
+        height: 220px;
+        left: 650px;
+        top: 70px;
+        background-color: white;
+        border: 0.75px solid blue;
+        flex: auto;
+        }
+
+.content-box4 {
+          position: relative;
+          width: 410px;
+          height: 250px;
+          left: 250px;
+          top: 160px;
+          background-color: white;
+          border: 0.75px solid blue;
+          flex: auto;
+          }
+
+    /*---legendas----*/
+
+.toggle {
+  display: inline-block;
+}
+
+.toggle input {
+  visibility: hidden;
+}
+
+.toggle input:checked ~ .hidden {
+  visibility: visible;
+}
+
+.toggle .hidden {
+  visibility: collapse;
+}
+
+.square{
+  margin: 100%;
+  height: 50px;
+  width: 50px;
+  top: 100px;
+  border-radius: 50%;
+  background-color: blue;
+  margin: 0px auto;
+  display: block; 
+  position: relative; 
+}  
+    
